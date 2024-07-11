@@ -3,6 +3,7 @@ title: "从0开始使用Hugo+Stack主题搭建个人博客(一)"
 date: 2024-07-09 20:35:24+08:00
 categories: 
     - Hugo
+    - Stack
 tags:
     - Hugo
     - Stack
