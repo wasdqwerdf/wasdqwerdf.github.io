@@ -130,3 +130,39 @@ icon = "brand-github"
 </p>
 
 ## Hugo配置
+一些汉化设置
+### 左侧边栏
+
+`content/post/_index.md`
+```toml
+---
+menu:
+    main:
+        # 显示名称
+        name: 主页
+        # 顺序
+        weight: 1
+        # 图标
+        params:
+            icon: home
+---
+```
+`content/page`目录
+```toml
+# 归档
+---
+title: "归档"
+date: 2024-07-09
+layout: "archives"
+slug: "archives"
+menu:
+    main:
+        weight: 2
+        params: 
+            icon: archives
+---
+```
+
+<p align="center">
+    <img src="8.png" alt="左侧边栏">
+</p>
