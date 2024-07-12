@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theme on wasdqwerdf's blog</title><link>https://wasdqwerdf.github.io/tags/theme/</link><description>Recent content in Theme on wasdqwerdf's blog</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Tue, 09 Jul 2024 20:35:24 +0800</lastBuildDate><atom:link href="https://wasdqwerdf.github.io/tags/theme/index.xml" rel="self" type="application/rss+xml"/><item><title>从0开始使用Hugo+Stack主题搭建个人博客(一)</title><link>https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/</link><pubDate>Tue, 09 Jul 2024 20:35:24 +0800</pubDate><guid>https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/</guid><description>&lt;p>使用Hugo在Github Page上搭建自己的个人博客。&lt;/p>
+&lt;h2 id="使用hugo-theme-stack-starter-template快速创建博客仓库">使用Hugo Theme Stack Starter Template快速创建博客仓库
+&lt;/h2>&lt;p>打开&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>Hugo Theme Stack Starter Template&lt;/a>，点击&lt;code>Use This Template&lt;/code>按钮。
+&lt;img src="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/1.png"
+width="202"
+height="141"
+srcset="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/1_hu8bed8edc6143d9b91fa531bf2ccb28d3_7941_480x0_resize_box_3.png 480w, https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/1_hu8bed8edc6143d9b91fa531bf2ccb28d3_7941_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+>&lt;/p>
+&lt;p>填写仓库信息，仓库名为&lt;code>用户名.github.io&lt;/code>，然后点击&lt;code>Create repository&lt;/code>按钮，等待仓库创建并初始化。
+&lt;img src="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/2.png"
+width="833"
+height="772"
+srcset="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/2_hu75a1d8117c58a446339459c334edd4f3_61123_480x0_resize_box_3.png 480w, https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/2_hu75a1d8117c58a446339459c334edd4f3_61123_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="107"
+data-flex-basis="258px"
+>&lt;/p>
+&lt;p>点击&lt;code>Code&lt;/code>按钮，再点击&lt;code>Create codespace on master&lt;/code>按钮创建Web Vscode编程环境
+&lt;img src="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/3.png"
+width="439"
+height="464"
+srcset="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/3_hu84a526a37ea76add1abd8f6bc9366d30_28219_480x0_resize_box_3.png 480w, https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/3_hu84a526a37ea76add1abd8f6bc9366d30_28219_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="94"
+data-flex-basis="227px"
+>&lt;/p>
+&lt;p>修改&lt;code>config/_default/config.toml&lt;/code>文件，然后把更改加到暂存里面，点击&lt;code>提交&lt;/code>按钮，回到仓库首页，等待Github Actions运行成功(1分钟内)。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 你的仓库的地址&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">baseurl&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://wasdqwerdf.github.io/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">languageCode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;zh-Hans&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">paginate&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 名称&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;wasdqwerdf&amp;#39;s blog&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># Theme i18n support&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 汉化&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">defaultContentLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;zh-cn&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># This will make .Summary and .WordCount behave correctly for CJK languages.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">hasCJKLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># Change it to your Disqus shortname before using&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">disqusShortname&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;wasdqwerdf&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/4.png"
+width="1135"
+height="404"
+srcset="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/4_hu424b3c50e0701ebd81a8f57ff911cd00_52446_480x0_resize_box_3.png 480w, https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/4_hu424b3c50e0701ebd81a8f57ff911cd00_52446_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Image 4"
+class="gallery-image"
+data-flex-grow="280"
+data-flex-basis="674px"
+>&lt;/p>
+&lt;p>等待出现分支&lt;code>gh-pages&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/5.png"
+width="339"
+height="308"
+srcset="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/5_hub50e579c11b7f37ac66314031794801b_17420_480x0_resize_box_3.png 480w, https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/5_hub50e579c11b7f37ac66314031794801b_17420_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Image 5"
+class="gallery-image"
+data-flex-grow="110"
+data-flex-basis="264px"
+>&lt;/p>
+&lt;p>点击&lt;code>Settiings&lt;/code>&amp;ndash;&amp;gt;&lt;code>Pages&lt;/code>&amp;ndash;&amp;gt;将原本的&lt;code>master&lt;/code>分支改成&lt;code>gh-pages&lt;/code>分支，目录选择根目录&lt;code>/&lt;/code>，点击&lt;code>Save&lt;/code>按钮保存设置。因为&lt;code>master&lt;/code>分支是我们的源代码，&lt;code>gh-pages&lt;/code>分支是hugo生成的内容。如果不这样选，访问博客地址时显示的&lt;code>master&lt;/code>分支的&lt;code>README.md&lt;/code>文件。
+&lt;img src="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/6.png"
+width="1349"
+height="843"
+srcset="https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/6_hub0c95a00bb59bf7a11ac7bc2bd1550f7_99731_480x0_resize_box_3.png 480w, https://wasdqwerdf.github.io/p/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo-stack%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%80/6_hub0c95a00bb59bf7a11ac7bc2bd1550f7_99731_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Image 6"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="384px"
+>&lt;/p></description></item></channel></rss>
